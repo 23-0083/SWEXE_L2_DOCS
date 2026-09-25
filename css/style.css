@@ -27,3 +27,25 @@ h2 {
 .img-right {
   float: right;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  padding: 8px;
+  background-color: #dddddd;
+  color: #000;
+}
+
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
